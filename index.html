@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Codificador de texto</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <header>
+             <img class="logoAlura" src="./asset/logoalura.png" alt="Logo da Alura."  >
+       </header>
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto"></textarea>
+
+                <div class="informacao">
+                    <ul class="mensagens-erro"></ul>
+                </div>
+
+                <div class="botoes">
+                    <button class="btn-codificar" type="button" >Criptografar</button>
+                    <button class="btn-decodificar" type="button" >Descriptografar</button>
+                </div>
+            </section>
+
+            <section class="container">
+                <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly></textarea>
+                <button class="invisivel btn-copiar" type="button" >Copiar</button>
+      
+            </section>
+        </main>
+
+        <footer>
+            <div class="redes">
+                         
+            <a class="redes" href="https://github.com/LiMaJessi"> 
+                <img src="./asset/logo-github.png"> GitHub </a>
+
+             <a class="redes" href="https://www.linkedin.com/in/limajessicacjsi">
+                <img src="./asset/logo-linkedin.png">  LinkedIn  </a>
+                
+             <a class="redes" href="https://www.instagram.com/-amoorimjee">                
+                <img src="./asset/logo-instagram.png"> Instagram </a>
+            </div>
+            
+            <div class="credito">
+                <p>&#169; Desenvolvido por Jessica Lima </p>
+            </div>
+        </footer>
+
+        <script src="./js/index.js"></script>
+        <script src="./js/validar.js"></script>
+        <script src="./js/copiar.js"></script>
+    </body>
+</html>
